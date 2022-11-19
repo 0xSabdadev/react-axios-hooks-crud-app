@@ -26,6 +26,7 @@ import HooksReducer from './components/Hooks/Function/HooksReducer'
 import {createContext} from 'react'
 import {useReducer} from 'react'
 import Tagihan from './components/Hooks/Function/Tagihan'
+import BlogPost from './components/class/BlogPost'
 
 //create context
 export const keranjangContext = createContext()
@@ -92,6 +93,7 @@ const App = () => {
                         <Route path='/produk' element={<ProductComp />} />
                         <Route path='/hooksReducer' element={<HooksReducer />} />
                         <Route path='/tagihan' element={<Tagihan />} />
+                        <Route path='//statefulAxios' element={<BlogPost />} />
                     </Routes>
                 </keranjangContext.Provider>
             </CartContext.Provider>

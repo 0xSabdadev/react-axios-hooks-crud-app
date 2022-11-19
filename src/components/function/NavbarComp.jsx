@@ -43,6 +43,9 @@ const NavbarComp = props => {
                         <Link to='/hooksReducer' className='nav-link'>
                             Use Reducer
                         </Link>
+                        <Link to='/statefulAxios' className='nav-link'>
+                            Class Axios
+                        </Link>
                     </Nav>
                     <Nav>
                         <Button>
