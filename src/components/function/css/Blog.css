@@ -1,0 +1,23 @@
+.blog-wrap {
+    width: 300px;
+    display: inline-block;
+    height: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    height: 10px;
+}
+
+.blog-wrap img {
+    width: 300px;
+    height: 200px;
+}
+
+.cardto {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 0 !important;
+}
+
+.bg-grey {
+    background: rgb(232, 233, 238) !important;
+}
