@@ -18,7 +18,8 @@ export default class BlogPost extends Component {
         //             post: json,
         //         })
         //     })
-        axios.get('https://jsonplaceholder.typicode.com/posts').then(res => {
+        //json-server --watch db.json --port 3004
+        axios.get('http://localhost:3004/posts').then(res => {
             this.setState({
                 post: res.data,
             })
